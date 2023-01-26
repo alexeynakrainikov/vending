@@ -1,0 +1,27 @@
+.odd {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: ghostwhite;
+  background-color: lightslategray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.odd:hover {
+  cursor: pointer;
+}
+
+.odd_item {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+

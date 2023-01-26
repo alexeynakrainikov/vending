@@ -1,0 +1,23 @@
+.cash {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banknotes {
+  :hover {
+    cursor: pointer;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.balance {
+  color: ghostwhite;
+  background-color: lightslategray;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}

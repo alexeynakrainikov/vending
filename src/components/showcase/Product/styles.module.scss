@@ -1,0 +1,31 @@
+.card {
+  :hover {
+    cursor: grab;
+  }
+  background-color: lightslategray;
+  width: 135px;
+  height: 160px;
+  border-radius: 20px;
+    img {
+      margin: 10px 20px;
+
+    }
+}
+
+.info {
+  color: ghostwhite;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    .price {
+      font-size: 24px;
+    }
+}
+
+.available {
+  opacity: 0.5;
+  :hover {
+    cursor: not-allowed;
+  }
+}
